@@ -1,0 +1,129 @@
+.about-us {
+  padding: 30px 0;
+}
+
+ul.aboutul i {
+  color: #EA4D2E;
+  margin-right: 5px;
+}
+
+ul.aboutul li {
+  font-size: 18px;
+  padding: 3px 0;
+}
+
+@media (min-width: 768px) {
+  .abouthomeimg {
+    height: 600px;
+    text-align: center;
+  }
+
+  .add-about-custom::before {
+    position: absolute;
+    content: "----------------------------";
+    font-size: 14px;
+    top: 130px !important;
+    left: 54px;
+    color: #ea4d2e;
+  }
+
+  .homeaboutimg {
+    height: 100%;
+    position: relative;
+    top: -5%;
+  }
+
+  .about-content h1 {
+    color: #000000;
+    font-family: "ABeeZee", Sans-serif;
+    font-size: 42px;
+    font-weight: 600;
+    line-height: 1.3em;
+  }
+
+  .about-content .about-p {
+    color: #4b4b4b;
+    font-family: "ABeeZee", Sans-serif;
+    font-size: 22px;
+    font-weight: 500;
+    line-height: 1.3em;
+  }
+
+  .about-content ul>li {
+    font-family: "ABeeZee", Sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+    color: #000000;
+  }
+
+  .about-content,
+  .about-contact-info {
+    color: #000000;
+    font-size: 20px !important;
+    font-family: "ABeeZee", Sans-serif;
+    font-weight: 400;
+  }
+
+  .add-about-custom {
+    padding: 0 50px;
+    position: relative;
+    top: 60px;
+  }
+}
+
+@media (max-width: 768px) {
+  .add-about-custom {
+    padding: 0 30px;
+  }
+
+  .about-content h1 {
+    color: #000000;
+    font-family: "ABeeZee", Sans-serif;
+    font-weight: 600;
+    line-height: 1.3em;
+  }
+
+  .about-text {
+    text-align: center;
+    padding: 15px;
+  }
+
+  .about-content .about-p {
+    color: #4b4b4b;
+    font-family: "ABeeZee", Sans-serif;
+    font-weight: 500;
+    line-height: 1.3em;
+  }
+
+  .about-content ul>li {
+    font-family: "ABeeZee", Sans-serif;
+    font-weight: 500;
+    color: #000000;
+  }
+
+  .about-content,
+  .about-contact-info {
+    color: #000000;
+    font-family: "ABeeZee", Sans-serif;
+    font-weight: 400;
+  }
+}
+
+.add-about-custom {
+  position: relative;
+}
+
+.add-about-custom::before {
+  position: absolute;
+  content: "----------------------------";
+  font-size: 14px;
+  top: 100px;
+  left: 54px;
+  color: #ea4d2e;
+}
+
+.loader {
+  position: relative;
+  left: 50%;
+  font-size: 40px;
+}

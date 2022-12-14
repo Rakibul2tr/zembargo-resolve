@@ -1,0 +1,32 @@
+.register-img{
+    background-image: url('../../../images//login/signup.png');
+    background-repeat: no-repeat;
+    background-position:top right;
+    height:300px;
+}
+.formsitelogin {
+    width: 100%;
+    border: 1px solid #DEE0E9 !important;
+}
+.form-dev {
+    padding: 10px;
+    border: 1px solid #DEE0E9;
+}
+.register-form {
+    padding: 50px !important;
+    margin-top: -90px;
+}
+.sitelogin-text{
+    font-size: 36px;
+    font-weight: 700;
+    color: #000;
+    line-height: 50px;
+    text-align: center;
+}
+.siteloginbtn{
+    border-radius: 5px !important;
+}
+.siteloginbtn:hover{
+    background-color:#CC3366 !important ;
+    color: #fff;
+}

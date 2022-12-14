@@ -1,0 +1,20 @@
+.areas-section label{
+    color: #000 !important;
+}
+.etitablefild i {
+    color: #00AA55;
+    display: block;
+    position: relative;
+    width: 75%;
+    text-align: right;
+    margin: 10px 0;
+}
+.etitablefild input{
+    width: 75%;
+    color: #000;
+    padding: 5px;
+}
+.imguploadfild{
+    display: flex;
+    align-items: center;
+}

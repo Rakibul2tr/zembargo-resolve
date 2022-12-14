@@ -1,0 +1,53 @@
+.login-img{
+    background-image: url('../../../images//login/login.png');
+    background-repeat: no-repeat;
+    background-position: right;
+    height:300px;
+}
+.sitelogin-form {
+    width: 45%;
+    padding: 60px 40px;
+    box-shadow: 0px 0px 10px 0px rgb(0 0 0 / 50%);
+    min-height: 500px;
+    position: relative;
+    z-index: 10;
+    background: #fff;
+    margin-top: -47px;
+}
+.loginform input {
+    border-radius: 0 !important;
+    margin: 10px 0 !important;
+}
+.siteloginbtn {
+    border-radius: 5px !important;
+    border: 1px solid #EA4D2E !important;
+    width: 100px;
+    transition: .3s;
+    
+}
+.siteloginbtn:hover{
+    background-color:#CC3366 !important ;
+    color: #fff;
+}
+.sitelogin-form input{
+    width: 100%;
+    padding: 5px;
+    margin: 5px 0;
+    border-radius: 12px;
+    border: 1px solid #BEBAB3;
+    color: #000;
+}
+.formsitelogin {
+    width: 100%;
+    border: 1px solid #DEE0E9 !important;
+}
+.sitelogin-text{
+    font-size: 36px;
+    font-weight: 700;
+    color: #000;
+    line-height: 50px;
+    text-align: center;
+}
+.siteloginbtn{
+    border-radius: 5px !important;
+}

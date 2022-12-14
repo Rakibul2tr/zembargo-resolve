@@ -1,0 +1,106 @@
+.contact-banner {
+    background-image: url('../../../images//contact-page-image//Asset-8ldpi.jpg');
+    width: 100%;
+    height: 450px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+
+.box p {
+    color: #282828;
+    font-family: "ABeeZee", Sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 1.5em;
+}
+
+.image-map img {
+    height: 300px;
+    width: 500px;
+    margin-bottom: 40px;
+    margin-left: 30px;
+    margin-top: 20px;
+    border-radius: 10px;
+}
+
+.container h3 {
+    font-size: 21px;
+}
+
+.container h4 {
+    font-size: 18px;
+}
+
+/* .container a{
+    text-decoration: none;
+    color: chocolate !important;
+} */
+/* .container a:hover{
+    color: black;
+} */
+.container hr {
+    width: 100px;
+    color: rgb(243, 105, 6);
+    padding: 1px;
+}
+
+.container p {
+    font-size: 22px;
+}
+
+.container h1 {
+    font-weight: 700;
+}
+
+.service form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 140px;
+}
+
+.service form input, textarea {
+    width: 50%;
+    padding: 7px;
+    border-radius: 7px;
+    margin: 3px;
+    border: 2px solid #CECCCC;
+}
+
+.service form textarea {}
+
+.send-button {
+    background-color: #EA4D2E;
+    padding: 7px 45px;
+    border: 0px;
+    border-radius: 7px;
+    color: white;
+    position: relative;
+    margin-left: -138px;
+}
+
+.send-button:hover {
+    color: black;
+}
+
+.image-map {
+    margin-top: -20px;
+    text-align: center;
+}
+
+@media (max-width: 768px) {
+    .service form input, textarea {
+        width: 100%;
+    }
+
+    .image-map img {
+        height: 300px;
+        width: 100%;
+        margin-bottom: 40px;
+        margin-left: 0px;
+        margin-top: 20px;
+        border-radius: 10px;
+    }
+}

@@ -1,0 +1,124 @@
+a {
+    text-decoration: none;
+    color: #000;
+}
+
+.about-text {
+    padding-left: 60px;
+}
+
+.about-text h1 {
+    font-size: 50px;
+    font-weight: 600;
+    line-height: 55px;
+}
+
+.about-text h5 {
+    font-size: 22px;
+    line-height: 29px;
+    color: #4b4b4b;
+    font-weight: 500;
+}
+
+.about-btn {
+    width: 180px;
+    height: 50px;
+    line-height: 40px;
+    color: aliceblue;
+}
+
+.about-btn a {
+    color: aliceblue;
+
+}
+
+.top-btn:hover {
+    background-color: #fff !important;
+    border: 1px solid #000;
+
+}
+
+.top-btn:hover.top-btn a {
+    color: black !important;
+}
+
+/* second section */
+.about-text h2 {
+    font-size: 35px;
+    font-weight: 600;
+    line-height: 46px;
+    padding: 2px;
+}
+
+.service-btn i {
+    color: #EA4D2E;
+    margin-left: 10px;
+}
+
+/* service ducoment */
+.about-ducoment li {
+    list-style: none;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+}
+
+.about-ducoment i {
+    color: #EA4D2E;
+    margin-right: 10px;
+    font-size: 14px;
+}
+
+.about-textallsec h5 {
+    line-height: 30px;
+    letter-spacing: .5px;
+}
+
+.about-textallsec {
+    padding-right: 60px;
+}
+
+/* last sevtion */
+h2.phontitle {
+    font-size: 37px;
+    font-weight: 600;
+    line-height: 40px;
+}
+
+h5.phonenumber {
+    font-size: 20px;
+    margin-top: 19px;
+}
+
+@media (max-width: 768px) {
+    .about-text.p-3 {
+        text-align: center;
+    }
+
+    .about-textallsec {
+        padding: 20px !important;
+        text-align: center;
+    }
+
+    .about-text {
+        padding-left: 8px;
+    }
+
+    .about-text h1 {
+        font-size: 25px;
+        font-weight: 600;
+        line-height: 33px;
+    }
+
+    .about-text h5 {
+        font-size: 18px;
+        line-height: 27px;
+        color: #4b4b4b;
+        font-weight: 400;
+    }
+
+    .about-text {
+        text-align: center;
+        padding: 5px;
+    }
+}

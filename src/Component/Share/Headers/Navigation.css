@@ -1,0 +1,367 @@
+nav a {
+  text-decoration: none;
+  padding: 0px 2px;
+  font-size: 16px;
+  display: flex;
+  align-items: center;
+  color: #494c4f !important;
+}
+
+nav ul li a {
+  text-decoration: none;
+  padding: 9px 10px;
+  font-size: 17px;
+  display: flex;
+  align-items: center;
+}
+
+nav a:hover {
+  color: #ea4d2e !important;
+}
+
+.btn-quote {
+  background: #ea4d2e;
+  color: white !important;
+  border-radius: 3px;
+  border: 2px solid transparent;
+  font-size: 14px;
+  transition: 0.5s;
+  height: 35px;
+  align-items: center;
+  padding: 7px;
+}
+
+.btn-quote:hover {
+  background: transparent;
+  color: black;
+  border: 2px solid #ea4d2e;
+}
+
+button:focus {
+  outline: none !important;
+  border: 0px !important;
+}
+
+#btn-banner {
+  border: 2px solid black !important;
+  background: black !important;
+}
+
+#btn-banner:hover {
+  background: transparent !important;
+  color: black;
+  border: 2px solid black !important;
+}
+
+ul {
+  margin: 0px !important;
+  padding: 0px !important;
+  list-style: none !important;
+}
+
+.second-menu {
+  position: relative;
+}
+
+.btn:focus,
+.btn:after,
+.btn:before {
+  outline: none !important;
+  border: none !important;
+}
+
+.btn:active:focus,
+.show>.btn-primary.dropdown-toggle:focus {
+  box-shadow: none !important;
+}
+
+button#dropdown-basic-button {
+  background: transparent;
+  color: black;
+}
+
+.login,
+.register {
+  background: blueviolet !important;
+  color: white;
+  border-radius: 5px;
+  padding: 3px 14px;
+}
+
+.login:hover,
+.register:hover {
+  background: blue !important;
+  color: white;
+  border-radius: 5px;
+}
+
+@media (min-width: 768px) {
+  button.logOut {
+    font-size: 17px;
+    background: red;
+    color: white;
+    border-radius: 20px;
+    display: inline-block;
+    padding: 5px 20px !important;
+    margin-left: 28px;
+    margin: 7px 0px 6px 20px;
+    position: relative;
+    top: 0px;
+  }
+
+  .acount_btn {
+    display: none;
+  }
+
+  .nav-menu {
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  a.desktop-drop-menu.userExists {
+    position: relative;
+    top: 4px;
+  }
+
+  button.logOut:hover {
+    background: rgb(219, 0, 66);
+  }
+
+  a.my-account-dekstop {
+    position: relative;
+    left: 30px;
+  }
+
+  .drop-item {
+    width: 350px;
+    background-color: white;
+    padding-bottom: 20px;
+    padding-left: 15px;
+  }
+
+  .drop-item a {
+    font-size: 15px !important;
+  }
+
+  nav a {
+    color: red;
+  }
+
+  nav a:hover {
+    color: #ea4d2e;
+  }
+
+  .icon-drop-mobile {
+    display: none !important;
+  }
+
+  .drop-item-mobile {
+    display: none;
+  }
+
+  .drop-item-desktop {
+    position: absolute;
+    visibility: hidden;
+    opacity: 0;
+    transition: 0.5s;
+    transform: scale(0);
+    transform-origin: top center;
+  }
+
+  ul>li:hover>a {
+    color: #ea4d2e;
+  }
+
+  ul>li ul li:hover .drop-item-desktop {
+    visibility: visible;
+    opacity: 1;
+    transform: scale(1);
+  }
+
+  .navbar-brand {
+    padding: 0px;
+  }
+
+  .my-account-mobile {
+    display: none;
+  }
+}
+
+@media (max-width: 768px) {
+  .mobile-space {
+    padding-bottom: 25px;
+  }
+
+  .nav-menu {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    overflow: hidden;
+    padding: 1px 0px !important;
+    text-align: center;
+  }
+
+  .navbar-nav .dropdown-menu {
+    position: absolute !important;
+  }
+
+  ul li a {
+    text-align: center;
+  }
+
+  .btn-quote {
+    background: #ea4d2e;
+    color: white !important;
+    border-radius: 3px;
+    border: 2px solid transparent;
+    padding: 5px 10px;
+    font-size: 15px;
+    transition: 0.5s;
+    width: 150px;
+    text-align: center;
+    display: none !important;
+  }
+
+  .acount_btn {
+    color: #ea4d2e !important;
+    font-size: 22px;
+    transition: 0.5s;
+    text-align: center;
+  }
+
+  nav a {
+    color: #494c4f !important;
+  }
+
+  nav a:hover {
+    color: #ea4d2e !important;
+  }
+
+  .drop-item-mobile {
+    position: relative;
+  }
+
+  svg.icon-drop-mobile {
+    position: absolute;
+    top: 10px;
+    right: 98px;
+  }
+
+  .drop-item-mobile:focus {
+    color: #ea4d2e;
+  }
+
+  .icon-drop-mobile:focus {
+    color: #ea4d2e;
+  }
+
+  .my-account-mobile {
+    position: absolute;
+    right: 65px;
+  }
+
+  button.logOut {
+    font-size: 11px;
+    background: red;
+    color: white;
+    border-radius: 20px;
+    display: inline-block;
+    padding: 3px 6px;
+  }
+
+  button.logOut:hover {
+    background: rgb(219, 0, 66);
+  }
+
+  a.desktop-drop-menu {
+    display: none !important;
+  }
+
+  button#dropdown-basic-button {
+    text-align: center;
+    display: block;
+    margin: 0 auto;
+    font-size: 14px;
+  }
+
+  .myAcount {
+    display: none !important;
+  }
+
+  .nav-menu a {
+    text-align: center;
+    display: block;
+  }
+
+  .nav-menu.navbar-nav.navbar-nav-scroll {
+    max-height: 200px !important;
+  }
+
+  .drop-item-desktop {
+    display: none;
+  }
+
+  .navbar-brand {
+    padding: 0px;
+    width: 140px;
+    position: relative;
+  }
+
+  a.my-account-dekstop {
+    display: none;
+  }
+}
+
+button {
+  border: none !important;
+}
+
+button:focus {
+  border: none !important;
+  outline: 0px !important;
+}
+
+#out-none:focus,
+.dropdown-toggle.btn.btn-primary:focus {
+  outline: none !important;
+  border: none !important;
+}
+
+textarea:focus,
+input[type="text"]:focus,
+input[type="password"]:focus,
+input[type="datetime"]:focus,
+input[type="datetime-local"]:focus,
+input[type="date"]:focus,
+input[type="month"]:focus,
+input[type="time"]:focus,
+input[type="week"]:focus,
+input[type="number"]:focus,
+input[type="email"]:focus,
+input[type="url"]:focus,
+input[type="search"]:focus,
+input[type="tel"]:focus,
+input[type="color"]:focus,
+.uneditable-input:focus {
+  border-color: #ea4d2e;
+  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1) inset, 0 0 8px rgba(255, 0, 0, 0.6);
+  outline: 0 none;
+}
+
+.btn:focus {
+  outline: none !important;
+  box-shadow: none !important;
+}
+
+.active-class {
+  color: red;
+}
+
+.active {
+  color: green;
+}

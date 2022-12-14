@@ -1,0 +1,186 @@
+.btn:focus {
+  outline: none !important;
+  box-shadow: none !important;
+}
+button.accordion-button::after {
+  margin-left: 0 !important;
+  position: absolute;
+  font-size: 22px;
+  font-weight: 900;
+  color: black;
+  left: 15px;
+}
+
+button.accordion-button:not(.collapsed) {
+  background-color: transparent !important;
+  box-shadow: none !important;
+}
+#accrdionItem {
+  border: none !important;
+}
+button.accordion-item,
+button.accordion-item:focus,
+button.accordion-item:active,
+button.accordion-header,
+button.accordion-header:focus,
+button.accordion-header:active,
+button.accordion-button,
+button.accordion-button:focus,
+button.accordion-button:active {
+  outline: none !important;
+}
+button.accordion-button:focus {
+  box-shadow: none !important;
+  border-color: transparent !important;
+}
+button.accordion-button:not(.collapsed) {
+  box-shadow: none !important;
+}
+
+@media (min-width: 768px) {
+  .faq-section h1.title {
+    color: #000000;
+    font-family: "ABeeZee", Sans-serif;
+    font-size: 42px;
+    font-weight: 600;
+    line-height: 1.3em;
+    position: relative;
+    margin-top: 140px;
+    margin-bottom: 70px;
+  }
+  .faq-section h1.title:before {
+    position: absolute;
+    content: "----------------";
+    font-size: 10px;
+    top: 36px;
+    left: 0;
+    color: #ea4d2e;
+    right: 0;
+  }
+  button.accordion-button.collapsed {
+    font-family: "ABeeZee", Sans-serif;
+    font-size: 22px;
+    font-weight: 500;
+    color: #000000;
+    padding-left: 50px;
+  }
+  button.accordion-button:not(.collapsed) {
+    font-family: "ABeeZee", Sans-serif;
+    font-size: 22px;
+    font-weight: 500;
+    color: #000000;
+    padding-left: 50px;
+  }
+  button.btn-accrdion {
+    display: inline-block;
+    font-weight: 400;
+    color: #c36;
+    text-align: center;
+    white-space: nowrap;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    background-color: transparent;
+    border: 1px solid #c36 !important;
+    padding: 0.5rem 1rem;
+    font-size: 1rem;
+    border-radius: 3px;
+    -webkit-transition: all 0.3s;
+    -o-transition: all 0.3s;
+    transition: all 0.3s;
+  }
+  button.btn-accrdion:hover {
+    border: 1px solid #c36 !important;
+    background-color: #c36;
+    color: white;
+  }
+}
+@media (max-width: 768px) {
+  .faq-section h1.title {
+    color: #000000;
+    font-family: "ABeeZee", Sans-serif;
+    font-weight: 600;
+    line-height: 1.3em;
+    position: relative;
+    margin: 40px 0;
+  }
+  .faq-section h1.title:before {
+    position: absolute;
+    content: "----------------";
+    font-size: 10px;
+    top: 54px;
+    left: 0;
+    color: #ea4d2e;
+    right: 0;
+  }
+  button.accordion-button.collapsed {
+    font-family: "ABeeZee", Sans-serif;
+    font-weight: 500;
+    color: #000000;
+    padding: 15px 50px;
+  }
+  button.accordion-button:not(.collapsed) {
+    font-family: "ABeeZee", Sans-serif;
+    font-weight: 500;
+    color: #000000;
+    padding-left: 50px;
+  }
+  button.btn-accrdion {
+    display: inline-block;
+    font-weight: 400;
+    color: #c36;
+    text-align: center;
+    white-space: nowrap;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    background-color: transparent;
+    border: 1px solid #c36 !important;
+    padding: 0.5rem 1rem;
+    font-size: 1rem;
+    border-radius: 3px;
+    -webkit-transition: all 0.3s;
+    -o-transition: all 0.3s;
+    transition: all 0.3s;
+  }
+  button.btn-accrdion:hover {
+    border: 1px solid #c36 !important;
+    background-color: #c36;
+    color: white;
+  }
+}
+#accrdionItem ol,
+#accrdionItem ul {
+  margin-top: 0;
+  margin-bottom: 1rem !important;
+}
+#accrdionItem ol,
+#accrdionItem ul {
+  padding-left: 2rem !important;
+}
+
+#accrdionItem ol li,
+#accrdionItem ul li {
+  color: #383838;
+  font-family: "ABeeZee", Sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+}
+button.btn-all-faq-accordion {
+  font-family: "ABeeZee", Sans-serif;
+  font-size: 18px;
+  font-weight: 500;
+  border: 1px solid #cecece !important;
+  color: #626262;
+  background-color: #ffffff;
+  border-style: solid;
+  border-radius: 2px 2px 2px 2px;
+  padding: 5px 20px;
+  display: block;
+  margin: 60px auto;
+}
+a {
+  text-decoration: none !important;
+}

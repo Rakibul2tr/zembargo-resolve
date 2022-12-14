@@ -1,0 +1,50 @@
+.headding h3 {
+    font-size: 29px;
+    line-height: 39px;
+    font-weight: 600;
+}
+
+
+.tablerow td {
+    font-size: 13px;
+}
+
+.bookinglismodal {
+    width: 75%;
+    left: 20%;
+}
+
+.updateorderform {
+    padding: 20px;
+}
+
+.updateorderform input {
+    width: 100%;
+    padding: 3px;
+    margin: 5px 0;
+}
+
+.tableheadrow th {
+    padding: 16px !important;
+}
+
+.imgname {
+    text-align: justify;
+    margin-left: 10px;
+}
+
+.tablerowbook td {
+    font-size: 13px;
+    text-align: center;
+    padding: 7px !important;
+    /* border-bottom: 1px solid #D8D8D8 !important;
+    border-collapse: separate; */
+}
+
+.tableheadrow th {
+    padding: 20px px 0 !important;
+    text-align: center;
+}
+tr.tablerowbook td {
+    border-bottom: 1px solid #cbc8c870;
+}

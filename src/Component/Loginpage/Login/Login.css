@@ -1,0 +1,90 @@
+.login-img{
+    background-image: url('../../../images/login/login.png');
+    background-repeat: no-repeat;
+    height: 300px;
+    background-position:top right;
+    width: 100%;
+}
+.login-text {
+  font-weight: 700;
+  color: #252e7a;
+  line-height: 50px;
+}
+.login-text p{
+  font-size: 15px !important;
+}
+.login-form {
+  width: 45%;
+  margin-top: -65px;
+  padding: 0px 40px;
+  box-shadow: 0px 0px 10px 0px rgb(0 0 0 / 50%);
+  min-height: 500px;
+  position: relative;
+  z-index: 10;
+  background: #fff;
+  padding-top: 28px;
+}
+.form {
+  width: 100%;
+}
+.login-form input {
+  width: 100%;
+  padding: 5px;
+  margin: 7px 0;
+  border: 1px solid #bebab3;
+  color: #000;
+}
+.password {
+  margin-left: -4px;
+}
+.password span {
+  position: relative;
+  margin-left: -25px;
+}
+.password span i {
+  color: #000;
+  cursor: pointer;
+}
+.loginbtn {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 15px;
+}
+.button button {
+  background: #252e7a;
+  width: 150px;
+  height: 50px;
+  color: #fff;
+  border-radius: 12px;
+}
+.button button:hover {
+  background: blue;
+  border: 1px solid blue;
+  color: white;
+}
+@media screen and (max-width: 678px) {
+  .login-img,
+  .register-img {
+    background-position: left !important;
+    width: auto;
+  }
+  .login-form {
+    width: 100% !important;
+    padding: 10px 5px;
+  }
+  .emaildiv {
+    margin-top: 6px;
+  }
+  .loginbtn {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 15px;
+  }
+}
+@media screen and (max-width: 992px) {
+  .login-form {
+    width: 100% !important;
+  }
+}

@@ -1,0 +1,27 @@
+.tablerow td {
+    font-size: 13px;
+    text-align: center;
+}
+
+.tableheadrow th {
+    padding: 20px px 0 !important;
+    text-align: center;
+}
+
+.bookinglismodal {
+    width: 75%;
+    left: 20%;
+}
+
+.updateorderform {
+    padding: 20px;
+}
+
+.updateorderform input {
+    width: 100%;
+    padding: 3px;
+    margin: 5px 0;
+}
+.adminquateserch i{
+    left: 0%;
+}

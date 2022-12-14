@@ -1,0 +1,86 @@
+@media (min-width: 768px) {
+  .service-section {
+    text-align: center;
+    padding-top: 70px;
+  }
+  .service-section .service-content {
+    padding: 17px;
+  }
+  .service-section .our-service-title {
+    text-align: center;
+    margin-bottom: 100px;
+    color: #000000;
+    font-family: "ABeeZee", Sans-serif;
+    font-size: 42px;
+    font-weight: 600;
+    line-height: 1.3em;
+    position: relative;
+  }
+  .service-section .our-service-title::before {
+    position: absolute;
+    content: "---------------------------";
+    font-size: 10px;
+    top: 36px;
+    left: 0;
+    color: #ea4d2e;
+    right: 0;
+  }
+
+  .service-section .service-content h4 {
+    color: #000000;
+    font-family: "ABeeZee", Sans-serif;
+    font-size: 23px;
+    font-weight: 600;
+    line-height: 1.3em;
+    padding: 15px 0;
+    padding-top: 25px;
+  }
+  .service-section .service-content p {
+    color: #4b4b4b;
+    font-family: "ABeeZee", Sans-serif;
+    font-size: 22px;
+    font-weight: 500;
+    line-height: 1.4em;
+  }
+}
+@media (max-width: 768px) {
+  .service-section {
+    text-align: center;
+  }
+  .service-section .service-content {
+    padding: 17px;
+  }
+  .service-section .our-service-title {
+    text-align: center;
+    margin-bottom: 30px;
+    color: #000000;
+    font-family: "ABeeZee", Sans-serif;
+    font-weight: 600;
+    line-height: 1.3em;
+    position: relative;
+  }
+  .service-section .our-service-title::before {
+    position: absolute;
+    content: "-----------------";
+    font-size: 10px;
+    top: 30px;
+    left: 0;
+    color: #ea4d2e;
+    right: 0;
+  }
+
+  .service-section .service-content h4 {
+    color: #000000;
+    font-family: "ABeeZee", Sans-serif;
+    font-weight: 600;
+    line-height: 1.3em;
+    padding: 15px 0;
+    padding-top: 25px;
+  }
+  .service-section .service-content p {
+    color: #4b4b4b;
+    font-family: "ABeeZee", Sans-serif;
+    font-weight: 500;
+    line-height: 1.4em;
+  }
+}

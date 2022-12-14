@@ -1,0 +1,295 @@
+.card{
+    border: 0 !important;
+    padding: 20px;
+}
+.step_1 input{
+    width: 100% !important;
+}
+.radioinput input{
+     width: auto !important;
+}
+.step2 label {
+    margin: 4px 0;
+}
+.step2 input,select {
+    width: 100% !important;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+button.nex_btn {
+    width: 110px;
+    position: relative;
+    left: 78%;
+    background: #EA4D2E;
+    height: 38px;
+    color: #fff;
+    border-radius: 5px;
+    border: 1px solid #EA4D2E !important;
+}
+button.nex_btn:hover{
+    background: #fff;
+    border: 1px solid #EA4D2E !important;
+    color: #EA4D2E;
+}
+.quate_btn{
+    left: 37% !important;
+    width: 163px !important;
+    margin-top: 15px;
+    border: 1px solid #EA4D2E !important;
+}
+.nex_btn2 {
+    width: 110px;
+    position: relative;
+    left: -19% !important;
+    background: #EA4D2E;
+    height: 38px;
+    color: #fff;
+    border-radius: 5px;
+    border: 1px solid #EA4D2E !important;
+}
+button.nex_btn2:hover{
+    background: #fff !important;
+    border: 1px solid #EA4D2E !important;
+    color: #EA4D2E;
+}
+.back_btn {
+    width: 110px;
+    position: relative;
+    background: #EA4D2E !important;
+    left: 3%;
+    border: 1px solid #EA4D2E !important;
+}
+button.back_btn:hover,.quete_btn:hover{
+    background: #fff !important;
+    border: 1px solid #EA4D2E !important;
+    color: #EA4D2E;
+}
+.quete_btn{
+    width: 120px;
+    position: relative;
+    background: #EA4D2E !important;
+    left: -15px;
+    border: 1px solid #EA4D2E !important;
+    
+}
+.quete_btn a{
+    color: #fff;
+}
+.quete_btn a:hover{
+    color: #EA4D2E;
+}
+/* quate section 4 */
+.estimitsection{
+    padding: 80px 0;
+}
+.estimithead {
+    position: relative;
+    margin-bottom: 25px;
+}
+.estimithead::before {
+    position: absolute;
+    content: '';
+    top: 50%;
+    left: 31%;
+    width: 38%;
+    height: 2px;
+    background: #DDDDDD;
+}
+table.estimit {
+    caption-side: bottom;
+     border-collapse: initial;
+     margin: 0;
+}
+.price{
+    background-color: #F4F4F4;
+    width: 100%;
+}
+.estimitprice {
+    padding-left: 15px;
+}
+.largtext {
+    margin-left: -192px;
+    padding: 5px;
+}
+.tablearia {
+    padding: 0;
+    border: 1px solid #DDDDDD;
+    border-radius: 5px;
+    border-bottom: 0 !important;
+}
+tbody.tablebody tr td {
+    width: 50%;
+}
+tbody.tablebody,.tablebody tr {
+    border-top: 0.5px solid #ccc !important;
+}
+tbody.tablebody tr> td> small {
+    font-size: 14px;
+    font-weight: 400 !important;
+}
+.teblefooter p {
+    font-size: 13px;
+    font-weight: 400;
+    color: #8E8E8E;
+}
+.teblefooter p > span{
+    color:#EA4D2E ;
+}
+.onlinebokbtn {
+    width: 120px;
+    position: relative;
+    background: #EA4D2E !important;
+    color: #fff;
+    left: 41%;
+    margin-top: 4%;
+    border: 1px solid #EA4D2E !important;
+}
+.onlinebokbtn:hover{
+    background: #fff !important;
+    border: 1px solid #EA4D2E !important;
+    color: #EA4D2E;
+}
+
+/* email section */
+.emailsection{
+    padding: 80px 0;
+}
+.emailsection h3{
+    font-size: 30px;
+    font-weight: 600;
+}
+.emailsection p{
+    font-size: 18px;
+    text-align: center;
+    margin-top: 20px;
+    font-weight: 600;
+    margin-bottom: 25px;
+}
+.emailform form{
+    
+    max-width: 315px;
+    margin: 0 auto;
+}
+.emailform form> input{
+    padding: 10px !important;
+    border: .5px solid #EA4D2E !important;
+    
+}
+
+/* conform form section */
+.confarmformhead{
+    font-weight: 600;
+    font-size: 30px;
+}
+.confarmformhead::before {
+    position: absolute;
+    content: '';
+    top: 50%;
+    left: 1%;
+    width: 98%;
+    height: 2px;
+    background: #DDDDDD;
+}
+.conformbody{
+    padding: 10px;
+    border: 1px solid #DBDBDB;
+    box-shadow: 0px 0px 14px 5px rgba(196, 196, 196, 0.16);
+}
+.headprice{
+    background: #F4F4F4;
+   border-radius: 8px 8px 0px 0px;
+}
+.headprice h4 {
+    font-size: 20px;
+    color: #222222;
+    font-weight: 600;
+    padding-top: 5px;
+}
+.headprice h3{
+    font-size: 40px;
+    font-weight: 600;
+}
+.confarmform label{
+    font-size: 14px;
+    font-weight: 400;
+    margin: 5px 0;
+}
+.confarmform input{
+    padding: 25px;
+    border-radius: 5px;
+    border: 1px solid #A1A1A1;
+    width: 100%;
+    margin: 10px 0;
+}
+.confarmform ::placeholder{
+    font-size: 15px;
+    font-weight: 400;
+}
+.confarmform :default{
+    font-size: 14px;
+    font-weight: 400;
+}
+.confarmform input[value] {
+    font-size: 14px;
+    font-weight: 400 !important;
+}
+.conformbtn{
+    text-align: center;
+    margin-top: 15px;
+}
+/* ok modals */
+.successSection{
+    padding: 80px 0;
+}
+.modalcontent {
+    width: 517px;
+    height: 407px;
+    margin: 0 auto;
+    background: #FFFFFF;
+    box-shadow: 0px 0px 6px 1px rgb(0 0 0 / 25%);
+    border-radius: 5px;
+    /* padding: 50px; */
+    margin: 20px 0;
+}
+.iconquat {
+    width: 70px;
+    height: 70px;
+    border-radius: 100%;
+    border: 1px solid#A1A1A1;
+    margin: auto;
+}
+.iconquat i {
+    font-size: 40px;
+    display: block;
+    color: #EA4D2E;
+    margin-top: 10px;
+}
+.name{
+    margin: 10px 0;
+}
+.name small{
+    font-size: 15px;
+    text-transform: capitalize;
+    
+}
+.content h6{
+    font-size: 17px;
+    color: #EA2026;
+    font-weight: 400;
+}
+.content p {
+    font-size: 15px;
+    color: #9A9A9A;
+    padding: 5px 50px;
+}
+.okbtn button {
+    width: 146px;
+    height: 41px;
+    border: 1px solid #EA2026 !important;
+    background: #fff;
+    color: #EA2026 !important;
+}
+.okbtn a{
+    color: #EA2026 !important;
+}

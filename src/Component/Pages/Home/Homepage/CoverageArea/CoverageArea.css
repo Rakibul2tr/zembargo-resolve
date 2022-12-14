@@ -1,0 +1,49 @@
+@media (min-width: 768px) {
+  .coverege-section {
+    padding-top: 100px;
+  }
+
+  .coverege-section .coverege-content {
+    padding: 0px 20px 20px 20px;
+  }
+
+  .coverege-section .coverege-content h1 {
+    color: #000000;
+    font-family: "ABeeZee", Sans-serif;
+    font-size: 35px;
+    font-weight: 600;
+    line-height: 1.3em;
+  }
+
+  .coverege-section .coverege-content p {
+    color: #4b4b4b;
+    font-family: "ABeeZee", Sans-serif;
+    font-size: 22px;
+    font-weight: 500;
+    line-height: 1.3em;
+  }
+
+  .coverege-section .img-coverege img {
+    height: 310px;
+    padding-left: 65px;
+    margin-top: 18px;
+  }
+}
+
+@media (max-width: 768px) {
+  .coverege-section .coverege-content h1 {
+    color: #000000;
+    font-family: "ABeeZee", Sans-serif;
+    font-weight: 600;
+    line-height: 1.3em;
+  }
+
+  .coverege-section .img-coverege img {
+    width: 100%;
+    padding: 0 20px;
+  }
+}
+
+.area-list ul li {
+  padding: 5px 30px;
+}

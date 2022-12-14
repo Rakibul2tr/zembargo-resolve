@@ -1,0 +1,46 @@
+@media (min-width: 768px) {
+  .reliability-section {
+    padding-top: 120px;
+    padding-bottom: 80px;
+  }
+
+  .reliability-section .reliability-content {
+    padding-right: 40px;
+  }
+
+  .reliability-section .reliability-content h1 {
+    color: #000000;
+    font-family: "ABeeZee", Sans-serif;
+    font-size: 35px;
+    font-weight: 600;
+    line-height: 1.3em;
+  }
+
+  .reliability-section .reliability-content p {
+    color: #4b4b4b;
+    font-family: "ABeeZee", Sans-serif;
+    font-size: 22px;
+    font-weight: 500;
+    line-height: 1.3em;
+  }
+
+  .reliability-section .img-reliability img {
+    height: 310px;
+    padding-left: 30px;
+    margin-top: 30px;
+  }
+}
+
+@media (max-width: 768px) {
+  .reliability-section .reliability-content h1 {
+    color: #000000;
+    font-family: "ABeeZee", Sans-serif;
+    font-weight: 600;
+    line-height: 1.3em;
+  }
+
+  .reliability-section .img-reliability img {
+    width: 100%;
+    padding: 0 20px;
+  }
+}

@@ -1,0 +1,6 @@
+.text-color ::placeholder{
+    color: rgb(211, 103, 84);
+}
+.line-break hr{
+    width: 100%;
+}

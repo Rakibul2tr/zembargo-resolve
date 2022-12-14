@@ -1,0 +1,85 @@
+.trakuser {
+    width: 75%;
+    margin: auto;
+    padding: 15px 20px;
+    border: 1px solid #ccc;
+    margin-top: 15px;
+    border-radius: 10px;
+    padding-bottom: 50px;
+    margin-bottom: 100px;
+}
+.headding i {
+    position: relative;
+    left: 13%;
+    color: tomato;
+    font-size: 20px;
+}
+.tracklistform i {
+    position: relative;
+    left: 8%;
+    color: tomato;
+    font-size: 20px;
+    margin-top: 7px;
+}
+.tablerow td{
+    font-size: 13px;
+}
+.bookinglismodal{
+    width: 75%;
+    left: 20%;
+}
+.updateorderform{
+    padding: 20px;
+}
+.updateorderform input{
+    width: 100%;
+    padding: 3px;
+    margin: 5px 0;
+}
+.leftfield{
+    width: 35%;
+}
+.search input{
+    background: #F0F0F0;
+    border: 1px solid #D9D9D9;
+    border-radius: 6px;
+    height: 34px;
+}
+.submitbtn button {
+    background: #000000;
+    border: 1px solid #000000;
+    border-radius: 6px;
+    width: 98.34px;
+    height: 32px;
+    line-height: 19px;
+}
+@media (max-width:768px) {
+   .trakuser{
+    width: 100%;
+    margin: auto;
+    border: 1px solid #ccc;
+    margin-top: 15px;
+    border-radius: 10px;
+    padding-bottom: 50px;
+    margin-bottom: 100px;
+    padding: 10px;
+   }
+   .search{
+       display: block;
+   }
+   .headding h3{
+       font-size: 15px;
+       font-weight: 500;
+   }
+   .headding i,.tracklistform i {
+    display: none;
+    }
+    .submitbtn button {
+        background: #000000;
+        border: 1px solid #000000;
+        border-radius: 6px;
+        width: 71.34px;
+        height: 30px;
+        line-height: 15px;
+    }
+}

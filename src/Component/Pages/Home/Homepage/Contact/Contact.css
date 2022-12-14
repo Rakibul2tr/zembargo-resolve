@@ -1,0 +1,34 @@
+.btn-send-msg {
+  border: 0px;
+  background-color: white;
+  color: #ea4d2e;
+  font-size: 19px;
+}
+
+.contact-section h5,
+.contact-section a {
+  color: #c36;
+}
+.contact-section a:hover {
+  color: #333;
+}
+@media (min-width: 768px) {
+  .contact-section h1.contact-title {
+    color: #000000;
+    font-family: "ABeeZee", Sans-serif;
+    font-size: 37px;
+    font-weight: 600;
+    line-height: 1.3em;
+  }
+}
+@media (max-width: 768px) {
+  .contact-section h1.contact-title {
+    color: #000000;
+    font-family: "ABeeZee", Sans-serif;
+    font-weight: 600;
+    line-height: 1.3em;
+  }
+  .banner img {
+    margin-top: 60px;
+  }
+}

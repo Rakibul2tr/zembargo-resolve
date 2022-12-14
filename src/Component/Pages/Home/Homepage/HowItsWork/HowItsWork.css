@@ -1,0 +1,129 @@
+.work-section {
+  margin-top: 100px;
+}
+@media (min-width: 768px) {
+  .work-section h1.title {
+    color: #000000;
+    font-family: "ABeeZee", Sans-serif;
+    font-size: 42px;
+    font-weight: 600;
+    line-height: 1.3em;
+    position: relative;
+  }
+  .bgWorkImg {
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 500px;
+    background-size: contain;
+    display: block;
+    margin: 0 auto;
+  }
+}
+@media (max-width: 768px) {
+  .work-section h1.title {
+    color: #000000;
+    font-family: "ABeeZee", Sans-serif;
+    font-weight: 600;
+    line-height: 1.3em;
+    position: relative;
+  }
+  .bgWorkImg {
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 300px;
+    display: block;
+    margin: 0 auto;
+    background-size: contain;
+  }
+}
+.work-section h1.title {
+  position: relative;
+}
+.work-section h1.title::before {
+  position: absolute;
+  content: "-------------------------------";
+  font-size: 10px;
+  top: 36px;
+  left: 0;
+  color: #ea4d2e;
+  right: 0;
+}
+
+@media (min-width: 768px) {
+  h1.text-center.title.mt-70 {
+    margin-bottom: 70px;
+  }
+  .position-absolute1 {
+    position: absolute;
+    text-align: center;
+    max-width: 50%;
+    left: 37%;
+    top: 279px;
+}
+.position-absolute1 p,.position-absolute2 p,.position-absolute3 p,.position-absolute4 p{
+  font-size: 20px !important;
+  color: #4b4b4b !important;
+}
+.position-absolute2 {
+  position: absolute;
+  width: 200px;
+  text-align: center;
+  left: 103px;
+  top: -41px;
+}
+.position-absolute3 {
+  position: absolute;
+  text-align: center;
+  max-width: 70%;
+  left: 82px;
+  top: 278px;
+}
+.position-absolute4 {
+  position: absolute;
+  left: 86px;
+  top: -20px;
+}
+  
+}
+@media (max-width: 768px) {
+
+  .work-section{
+    display: none;
+  }
+  .position-absolute1 {
+    position: absolute;
+    bottom: -177px;
+    text-align: center;
+    left: 10px;
+    width: 100%;
+  }
+  .position-absolute2 {
+    position: absolute;
+    top: 23px;
+    width: 86px;
+    text-align: center;
+  }
+  .position-absolute3 {
+    position: absolute;
+    bottom: -190px;
+    text-align: center;
+    max-width: 70%;
+    left: 20px;
+  }
+  .position-absolute4 {
+    position: absolute;
+    left: 9px;
+    top: 27px;
+    width: 70px;
+    text-align: center;
+  }
+  .position-absolute1 > p,
+  .position-absolute2 > p,
+  .position-absolute3 > p,
+  .position-absolute4 > p {
+    font-size: 10px;
+  }
+  .position-relative {
+    position: relative !important;
+  }
+}

@@ -1,0 +1,65 @@
+@media (min-width: 768px) {
+  .itemsPicked-section {
+    padding-top: 100px;
+    padding-bottom: 100px;
+    background: #FEF9F9;
+}
+  .itempicked {
+    padding-left: 70px;
+    margin-left: 30px;
+}
+  .itemsPicked-section h5.title {
+    color: #4b4b4b;
+    font-family: "ABeeZee", Sans-serif;
+    font-size: 22px;
+    font-weight: 500;
+    line-height: 1.3em;
+  }
+  .itemsPicked-section h1.heading-title {
+    color: #000000;
+    font-family: "ABeeZee", Sans-serif;
+    font-size: 42px;
+    font-weight: 600;
+    line-height: 1.3em;
+    position: relative;
+  }
+  .btnItemsPicked {
+    font-family: "ABeeZee", Sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+    color: #ffffff;
+    background-color: #ea4d2e;
+    border-style: solid;
+    border-radius: 5px 5px 5px 5px;
+    padding: 10px 20px;
+    margin: 0 auto !important;
+  }
+}
+@media (max-width: 768px) {
+  .itemsPicked-section {
+    padding-bottom: 100px;
+    text-align: center;
+    
+  }
+  .itemsPicked-section h5.title {
+    color: #4b4b4b;
+    font-family: "ABeeZee", Sans-serif;
+    font-weight: 500;
+    line-height: 1.3em;
+  }
+  .itemsPicked-section h1.heading-title {
+    color: #000000;
+    font-family: "ABeeZee", Sans-serif;
+    font-weight: 600;
+    line-height: 1.3em;
+  }
+  .btnItemsPicked {
+    color: white;
+    font-weight: 500;
+    background-color: #ea4d2e;
+    border-style: solid;
+    border-radius: 5px 5px 5px 5px;
+    padding: 10px 20px;
+    margin: 0 auto !important;
+  }
+}
